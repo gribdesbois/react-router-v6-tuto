@@ -1,14 +1,15 @@
-import { render } from 'react-dom';
+import { render } from 'react-dom'
 import {
   BrowserRouter,
   Routes,
   Route,
-} from 'react-router-dom';
-import App from './App';
-import Expenses from './routes/expenses.jsx';
-import Invoices from './routes/invoices.jsx';
+} from 'react-router-dom'
+import App from './App'
+import Expenses from './routes/expenses.jsx'
+import Invoices from './routes/invoices.jsx'
+import Invoice from './routes/invoice'
 
-const rootElement = document.getElementById('root');
+const rootElement = document.getElementById('root')
 render(
   <BrowserRouter>
     <Routes>
@@ -29,4 +30,4 @@ render(
     </Routes>
   </BrowserRouter>,
   rootElement,
-);
+)

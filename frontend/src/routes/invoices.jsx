@@ -14,11 +14,7 @@ export default function Invoices() {
         {invoices.map((invoice) => (
           <NavLink
 
-            style={({ isActive }) => ({
-              display: 'block',
-              margin: '1rem 0',
-              color: isActive ? 'red' : '',
-            })}
+            className={({ isActive }) => (isActive ? 'red' : 'blue')}
             to={`/invoices/${invoice.number}`}
             key={invoice.number}
           >

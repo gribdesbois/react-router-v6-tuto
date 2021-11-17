@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+.red{
+display: 'block';
+              margin: '1rem 0';
+              color: 'red';
+}
+
+.blue{
+display: 'block';
+              margin: '1rem 0';
+              color: 'blue';
+}
